@@ -1,18 +1,13 @@
 <template>
   <div id="app">
-  <HelloWorld msg="Uncc Graduate and FrontEnd Developer"/>
-
+    <img src="./assets/logo.png">
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
@@ -23,12 +18,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
-}
-body{
-  margin: 0px;
-  
-
-
+  margin-top: 60px;
 }
 </style>
